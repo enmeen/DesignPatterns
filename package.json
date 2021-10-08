@@ -1,0 +1,18 @@
+{
+	"name": "DesignPatterns",
+	"version": "1.0.0",
+	"main": "index.js",
+	"scripts": {
+		"simpleFactoryPattern": "ts-node src/simpleFactoryPattern.ts",
+		"factoryMethodPattern": "ts-node src/factoryMethodPattern.ts"
+	},
+	"repository": "https://github.com/enmeen/DesignPatterns.git",
+	"author": "desen",
+	"license": "MIT",
+	"devDependencies": {
+		"ts-node": "^10.2.1"
+	},
+	"dependencies": {
+		"typescript": "^4.4.3"
+	}
+}
