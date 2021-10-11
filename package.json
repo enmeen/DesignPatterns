@@ -4,7 +4,9 @@
 	"main": "index.js",
 	"scripts": {
 		"simpleFactoryPattern": "ts-node src/simpleFactoryPattern.ts",
-		"factoryMethodPattern": "ts-node src/factoryMethodPattern.ts"
+		"factoryMethodPattern": "ts-node src/factoryMethodPattern.ts",
+		"singletonPattern": "ts-node src/singletonPattern.ts",
+		"builderPattern": "ts-node src/builderPattern.ts"
 	},
 	"repository": "https://github.com/enmeen/DesignPatterns.git",
 	"author": "desen",
