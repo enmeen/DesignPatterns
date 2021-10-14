@@ -3,6 +3,7 @@
 	"version": "1.0.0",
 	"main": "index.js",
 	"scripts": {
+		"prototypePattern": "ts-node src/prototypePattern.ts",
 		"simpleFactoryPattern": "ts-node src/simpleFactoryPattern.ts",
 		"factoryMethodPattern": "ts-node src/factoryMethodPattern.ts",
 		"singletonPattern": "ts-node src/singletonPattern.ts",

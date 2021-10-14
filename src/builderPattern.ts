@@ -1,5 +1,8 @@
 /**
  * 建造者模式，又叫生成器模式
+ * 
+ * 定义：
+ * 将一个复杂对象的构成建与它的表示分离，使得同样的构建过程可以创建不同的表示
  *
  * 何时使用：
  * 构造一个复杂对象，对象中的一些部分根据一些算法进行变化。其中的各部分会随着需求变化发生剧烈的变化。但将他们组合在一起的算法却比较稳定。
@@ -98,8 +101,7 @@ console.log("hasDrinkMeal", hasDrinkMeal.getCost());
 
 /**
  * why 上述的案例是有问题的
- * 1. 没有指挥者，进行组合
- * 2. 通过不同的builder实例来实现 noDrinkMeal 和 hasDrinkMeal。即 NoDrinkMealBuilder 、 HasDrinkMealBuilder
+ * 1. 没有指挥者，进行组合。案例中在builder中实现了。。。
  */
 
 /***************** correct 案例/s ******************/
